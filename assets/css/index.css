@@ -1,0 +1,57 @@
+.main-body-area > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.main-body-area main {
+  position: relative;
+  z-index: 2;
+  margin-top: 8rem;
+  color: #fff;
+}
+.main-body-area main .presentation {
+  width: 70%;
+}
+.main-body-area main .presentation h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 110px;
+  letter-spacing: 5px;
+}
+.main-body-area main .presentation h1 span:nth-child(2) {
+  display: block;
+}
+.main-body-area main .buttons-wrapper {
+  margin-top: 13rem;
+}
+.main-body-area main .buttons-wrapper > * + * {
+  margin-left: 2rem;
+}
+.main-body-area main .buttons-wrapper button {
+  min-width: 236px;
+  height: 78px;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #2a2a2a;
+  box-shadow: 0px 5px 20px #f5d83567;
+  background-color: #ffdc2d;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.main-body-area main .buttons-wrapper button:last-child {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(86px);
+  box-shadow: none;
+  color: #fff;
+  border: 1px solid #9796ad;
+}
+.main-body-area main .hero-main-image {
+  position: absolute;
+  top: 60%;
+  right: 0px;
+  width: 70%;
+  transform: translateY(-60%);
+}
