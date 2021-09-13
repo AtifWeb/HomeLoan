@@ -6,14 +6,14 @@
 }
 
 .w-1300 {
-  width: 1500px;
+  width: 1600px;
 }
 .w-1300,
-.w-85 {
+.w-75 {
   margin: 0rem auto;
 }
-.w-85 {
-  width: 85%;
+.w-75 {
+  width: 75%;
 }
 .d-flex,
 .d-flex-align-center,
@@ -73,4 +73,42 @@ header nav a {
 header > img {
   width: 138px;
   height: 122px;
+}
+
+
+footer{
+  
+  background:linear-gradient(45deg, #06053c,#372562);
+  padding: 4rem 0rem;
+  color: #fff;
+}
+footer .content-level > .grid-col-4{
+  grid-gap: 8rem !important;
+}
+footer p{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 2rem;
+  color: #9d9cb3;
+  line-height: 31px;
+}
+footer .content-level > .grid-col-4 .head{
+  font-size: 22px;
+  font-weight: 300;
+
+}
+
+footer .content-level > .grid-col-4 .col > *+*{
+  margin-top: 2rem;
+}
+
+footer .content-level > .grid-col-4 .col a{
+  font-size: 15px;
+  font-weight: 400;  color: #9d9cb3;
+}
+footer .content-level .social-icons-wrapper {
+  margin-top: 2rem;
+}
+footer .content-level .social-icons-wrapper > *+*{
+  margin-left: 1.5rem;
 }
