@@ -1,4 +1,4 @@
-.first-section-bg,.second-section-bg,.fourth-section-bg,.fifth-section-bg{
+.first-section-bg,.second-section-bg,.fourth-section-bg,.fifth-section-bg,.sixth-section-bg{
   position: absolute;
   z-index: 2;
   
@@ -24,6 +24,10 @@
 }
 .fifth-section-bg{
   top: 4500px;
+}
+.sixth-section-bg{
+  top: 6200px;
+  
 }
 .main-body-area > img {
   position: absolute;
