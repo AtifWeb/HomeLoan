@@ -4,19 +4,20 @@
 .fifth-section-bg,
 .sixth-section-bg {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 
   top: 1000px;
   width: 100%;
   left: -0;
   width: 100%;
 }
+
 .second-section-bg {
   top: 1700px;
 }
 .third-section-bg {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 
   top: 2500px;
   max-width: 100%;
@@ -513,6 +514,8 @@
   color: #fff;
   margin-top: 25rem;
   margin-bottom: 25rem;
+  position: relative;
+  z-index: 2;
 }
 .get-in-touch-wrapper .inner-content h1 {
   text-align: center;
@@ -682,7 +685,8 @@
     width: 80%;
     margin: 0rem auto;
   }
-  .main-body-area nav {
+  .mobile-navbar {
+    display: flex;
     position: fixed;
     top: 0;
     left: -100%;
@@ -694,15 +698,21 @@
     width: 60vw;
     z-index: 999;
     transition: 0.5s ease all;
-    /* left: 10%; */
   }
-  .main-body-area nav.active {
-    left: 0%;
+  .mobile-navbar a {
+    color: #fff;
   }
   .main-body-area nav {
+    display: none;
+    /* left: 10%; */
+  }
+  .mobile-navbar.active {
+    left: 0%;
+  }
+  .mobile-navbar {
     padding: 2rem;
   }
-  .main-body-area nav > * + * {
+  .mobile-navbar > * + * {
     margin-left: 0rem;
     margin-top: 2rem;
   }
