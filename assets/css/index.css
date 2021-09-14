@@ -759,6 +759,10 @@
     width: 110px !important;
     height: 90px !important;
   }
+  .main-body-area main,
+  .main-body-area main .presentation {
+    margin-top: 6rem !important;
+  }
   .blogs-area .cards-wrapper {
     grid-template-columns: 1fr;
   }
@@ -822,7 +826,7 @@
     font-size: 40px !important;
   }
   .our-algo .top-level-inner img {
-    width: 50% !important;
+    width: 80% !important;
   }
 }
 @media screen and (max-width: 500px) {
