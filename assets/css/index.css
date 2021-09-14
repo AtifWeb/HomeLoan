@@ -45,6 +45,7 @@
   position: relative;
 
   margin-top: 8rem;
+  z-index: 2;
   margin-bottom: 13rem;
   color: #fff;
 }
@@ -104,7 +105,8 @@
   display: grid;
   grid-template-columns: 0.8fr 1fr;
   grid-gap: 5rem;
-
+  position: relative;
+  z-index: 2;
   margin-top: 20rem;
 }
 .main-body-area .first-section .box {
@@ -224,7 +226,8 @@
 .main-body-area .connects {
   display: grid;
   grid-template-columns: 0.6fr 1fr;
-
+  position: relative;
+  z-index: 2;
   margin-top: 25rem;
 }
 .main-body-area .connects .presentation p {
@@ -344,6 +347,8 @@
 /* slider area */
 .our-algo {
   margin-top: 25rem;
+  position: relative;
+  z-index: 2;
 }
 .our-algo .top-level-inner {
   justify-content: space-between;
