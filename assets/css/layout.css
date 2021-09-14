@@ -42,7 +42,13 @@
 .grid-col-4 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
+.burger-menu {
+  color: #fff;
+  display: none;
+}
+.burger-menu i {
+  font-size: 30px;
+}
 ul,
 nav {
   list-style: none;
@@ -125,5 +131,8 @@ footer .content-level .social-icons-wrapper > * + * {
 @media screen and (max-width: 1200px) {
   footer .content-level > .grid-col-4 {
     grid-gap: 3rem !important;
+  }
+  .burger-menu {
+    display: block;
   }
 }
