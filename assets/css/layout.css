@@ -75,40 +75,55 @@ header > img {
   height: 122px;
 }
 
-
-footer{
-  
-  background:linear-gradient(45deg, #06053c,#372562);
+footer {
+  background: linear-gradient(45deg, #06053c, #372562);
   padding: 4rem 0rem;
   color: #fff;
 }
-footer .content-level > .grid-col-4{
+footer .content-level > .grid-col-4 {
   grid-gap: 8rem !important;
 }
-footer p{
+footer p {
   font-size: 14px;
   font-weight: 300;
   margin-top: 2rem;
   color: #9d9cb3;
   line-height: 31px;
 }
-footer .content-level > .grid-col-4 .head{
+footer .content-level > .grid-col-4 .head {
   font-size: 22px;
   font-weight: 300;
-
 }
 
-footer .content-level > .grid-col-4 .col > *+*{
+footer .content-level > .grid-col-4 .col > * + * {
   margin-top: 2rem;
 }
 
-footer .content-level > .grid-col-4 .col a{
+footer .content-level > .grid-col-4 .col a {
   font-size: 15px;
-  font-weight: 400;  color: #9d9cb3;
+  font-weight: 400;
+  color: #9d9cb3;
 }
 footer .content-level .social-icons-wrapper {
   margin-top: 2rem;
 }
-footer .content-level .social-icons-wrapper > *+*{
+footer .content-level .social-icons-wrapper > * + * {
   margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .w-1300 {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .w-75,
+  .review-area .top-level {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  footer .content-level > .grid-col-4 {
+    grid-gap: 3rem !important;
+  }
 }
