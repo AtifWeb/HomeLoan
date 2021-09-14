@@ -999,4 +999,8 @@
     min-width: 100%;
     width: 100%;
   }
+  .slider-item-wrapper.active {
+    min-width: 100%;
+    width: 100%;
+  }
 }
