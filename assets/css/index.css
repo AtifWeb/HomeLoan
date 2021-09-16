@@ -172,16 +172,44 @@
 .main-body-area .first-section .box .rows-wrapper > .row .grid-col-4 {
   width: 100%;
 }
+.main-body-area .first-section .box .rows-wrapper > .row input {
+  width: 100%;
+  color: #bab9c9;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  outline: none;
+}
+.main-body-area .first-section .box .rows-wrapper > .row input::placeholder {
+  color: #bab9c9;
+}
+
 .main-body-area
   .first-section
   .box
   .rows-wrapper
   > .row
   .grid-col-4
-  > *:not(*:first-child) {
-  color: #fff;
-  font-size: 16px;
+  > *:not(:first-child) {
   font-weight: 600;
+}
+.main-body-area
+  .first-section
+  .box
+  .rows-wrapper
+  > .row
+  .grid-col-4
+  > *:not(:first-child),
+.main-body-area
+  .first-section
+  .box
+  .rows-wrapper
+  > .row
+  .grid-col-4
+  > *:not(:first-child)::placeholder {
+  color: #fff;
 }
 .main-body-area .first-section .box #submit-button-label,
 #submit-button-labe-form {
