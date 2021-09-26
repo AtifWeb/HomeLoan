@@ -1,0 +1,77 @@
+.main-body-area main {
+  display: grid !important;
+  grid-template-columns: 1fr 0.7fr !important;
+  align-items: center;
+  grid-gap: 2rem;
+}
+.main-body-area main .presentation {
+  width: 100% !important;
+  margin-bottom: 5rem;
+}
+
+.main-body-area main form {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(86px);
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(156, 156, 156);
+  align-items: center;
+}
+.main-body-area main form h2 {
+  width: 50%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.main-body-area main form h2 + img {
+  margin-bottom: 10px;
+}
+.main-body-area main form .input-wrapper {
+  width: 100%;
+  padding: 1.5rem 0rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #c3bdd0;
+}
+
+.main-body-area main form .input-wrapper input::placeholder {
+  color: #c3bdd0;
+}
+.main-body-area main form .input-wrapper input {
+  margin-left: 1rem;
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #ffffff;
+}
+#submit-button {
+  min-width: 146px;
+  height: 49px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #2a2a2a;
+  box-shadow: 0px 5px 20px #f5d83567;
+  background-color: #ffdc2d;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-top: 3rem;
+}
+@media screen and (max-width: 1200px) {
+  .main-body-area main {
+    grid-template-columns: 1fr !important;
+    margin-top: 0px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-body-area main form {
+    padding: 2rem;
+  }
+}

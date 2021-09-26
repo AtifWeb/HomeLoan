@@ -1,0 +1,12 @@
+@media screen and (max-width: 1200px) {
+  .main-body-area main #presentation_id {
+    width: 100% !important;
+  }
+  .main-body-area main > img {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    margin-bottom: 3rem !important;
+    transform: translateY(0) !important;
+  }
+}
