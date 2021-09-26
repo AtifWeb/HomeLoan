@@ -8,19 +8,24 @@
   width: 100% !important;
   margin-bottom: 5rem;
 }
-
+.form-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
 .main-body-area main form {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(86px);
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
   border-radius: 20px;
   display: flex;
+  width: 80%;
+
   flex-direction: column;
-  border: 1px solid rgb(156, 156, 156);
+  border: 1px solid #625084;
   align-items: center;
 }
 .main-body-area main form h2 {
-  width: 50%;
+  width: 80%;
   text-align: center;
   font-weight: 400;
   font-size: 28px;
@@ -32,9 +37,10 @@
 .main-body-area main form .input-wrapper {
   width: 100%;
   padding: 1.5rem 0rem;
+  padding-bottom: 1rem;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #c3bdd0;
+  border-bottom: 1px solid #625084;
 }
 
 .main-body-area main form .input-wrapper input::placeholder {
