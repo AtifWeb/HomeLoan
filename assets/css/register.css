@@ -75,6 +75,12 @@
     grid-template-columns: 1fr !important;
     margin-top: 0px !important;
   }
+  .form-wrapper {
+    justify-content: center;
+  }
+  .main-body-area main form {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
   .main-body-area main form {
