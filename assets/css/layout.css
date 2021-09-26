@@ -13,7 +13,7 @@
   -webkit-text-fill-color: transparent;
 }
 .w-1300 {
-  width: 1600px;
+  width: 1400px;
 }
 .w-1300,
 .w-75 {
@@ -76,7 +76,7 @@ header {
   z-index: 2;
 }
 header nav > * + * {
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 header nav a {
   color: #fff;

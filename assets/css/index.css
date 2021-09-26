@@ -93,7 +93,7 @@
   position: absolute;
   top: 60%;
   right: 0px;
-  width: 70%;
+  width: 65%;
   transform: translateY(-60%);
 }
 /* sections area start */
@@ -890,9 +890,13 @@
   }
   .get-in-touch-wrapper {
     margin-top: 10rem !important;
+    margin-bottom: 4rem;
   }
   .get-in-touch-wrapper .inner-content h1 {
     margin-bottom: 3rem !important;
+  }
+  .blogs-area {
+    margin-top: 5rem;
   }
   .main-body-area main .presentation h1 {
     font-size: 50px;
