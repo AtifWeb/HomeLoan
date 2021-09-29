@@ -1,15 +1,16 @@
 main {
-  margin-bottom: 0px !important;
+  margin-bottom: 15rem !important;
 }
 .main-body-area main {
   display: grid !important;
   grid-template-columns: 1fr 0.7fr !important;
-  align-items: center;
+
   grid-gap: 2rem;
 }
 .main-body-area main .presentation {
   width: 100% !important;
   margin-bottom: 5rem;
+  padding-top: 3rem;
 }
 .form-wrapper {
   display: flex;
